@@ -1,0 +1,16 @@
+.paramName{
+  display: inline-block;
+  width: 150px
+}
+.label{
+  display: flex;
+  margin: 10px 0 0 0
+}
+.paramValue{
+  flex: 1
+}
+.createButton{
+  width: 200px;
+  margin: 20px auto 0 auto; 
+  padding: 5px
+}
