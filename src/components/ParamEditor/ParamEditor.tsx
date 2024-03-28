@@ -59,7 +59,7 @@ const ParamEditor:FC = () => {
 
       {tableState ?
       <Table tableState={tableState} /> :
-      <span className={classes.refreshButton}>Print it!</span>
+      <span className={classes.printTitle}>Print it!</span>
       }
     </div>
   )

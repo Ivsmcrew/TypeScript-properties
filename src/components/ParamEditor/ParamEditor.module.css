@@ -1,16 +1,40 @@
+html, body{
+  height: 100%;
+}
+body{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(34, 38, 54) 48%, rgba(0,0,0,1) 100%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(12, 35, 79);
+}
 .paramEditor{
   display: flex;
   flex-direction: column;
   width: 600px; 
-  margin: 50px auto 0 auto
+  margin: 100px auto 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #e7e7d9;
 }
 .refreshButton{
-  width: 200px; 
-  margin: 20px auto 0 auto;
-  padding: 5px
+  cursor: pointer;
+  width: 200px;
+  margin: 20px auto 0 auto; 
+  padding: 8px;
+  background-color: #040f23;
+  border: none;
+  border-radius: 5px;
+  color: rgb(233, 233, 233);
+}
+.refreshButton:hover{
+  background-color: #040f23c9;
 }
 .addInfo{
   font: 2rem "Fira Sans", sans-serif;
   display: block;
   margin: 10px auto 0 auto
+}
+.printTitle{
+  margin: 20px auto 0 auto; 
+  font-size: 20px;
 }
